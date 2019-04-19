@@ -18,7 +18,7 @@ string = "dave"
 
 print(string[::-1])
 """
-
+"""
 # String Exercise 4
 
 user_input = input("Please type a word or phrase to be translated into Leet Speak: ")
@@ -32,7 +32,7 @@ string_7 = string_6.replace("s","5")
 string = string_7.replace("t","7")
 
 print(string.upper())
-
+"""
 
 # Assignment 5 - Long-long vowels
 #Incomplete
@@ -45,10 +45,10 @@ while index <= len(string):
 """
 
 #Assignment 6 - Caesar Cipher
-"""
-order = "we attack at dawn destroy this message as soon as you read it"
+
+order = input("Please type in a message to be translated into Caesar Cipher: ")
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-cipher = 5
+cipher = 13
 index = 0
 coded_message = ""
 
@@ -65,4 +65,3 @@ while index < len(order):
         coded_message = coded_message + " "    
 
 print(coded_message)        
-"""
